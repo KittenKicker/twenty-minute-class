@@ -3,6 +3,7 @@ import java.util.*;
 
 public class DatabasesAss3 
 {
+	//insert into the file
 	public static void saveDatabase(HashMap<String, int[]> database)
 	{
 		File fout = new File("database.txt");
