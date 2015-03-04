@@ -58,6 +58,7 @@ public class DatabasesAss3
 		boolean uFlag = false;
 		HashMap<String, int[]> database = new HashMap<String,int[]>();
 		
+		//read in records already in file
 		File file = new File("database.txt");
 		try
 		{
